@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="enquiry.css">
+<script src = "enquiry.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <div>
+        <nav class="navbar navbar-inverse">
+            
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">SK JAIN TVS </a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#">Sales</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Spare Parts</a></li>
+                <li><a href="#">Contact us</a></li>
+                
+              </ul>
+    </div>
+    
+        
+    <div class="jumbotron text-center" >
+        
+        <img src ="https://www.whoistheownerof.com/wp-content/uploads/2018/01/Owner-of-TVS-Motors-Ltd-Wiki-Logo-profile.jpg"  alt="tvs logo" height="250" width-"150">
+        <h1>   Enquiry Form </h1>
+        <h2>Fill the Enquiry form </h2>
+            
+    </div>
+    <div>
+   
+    </div>
+
+    <div id = "form">
+      <form>
+        <table>
+          <tr>
+            <td><label>Name:</label></td>
+            <td> <input type = "text" placeholder="Enter your name"><br></td>
+          </tr>
+          <tr></tr>
+          <tr>
+             <td><label>Mobile number:</label></td>
+             <td> <input type = "number" placeholder="Enter your Mobile no. " required > <br></td>
+          </tr>
+          <tr>
+            <td><label>Address:</label></td>
+            <td> <input type = "text" placeholder="Enter your Address. "><br></td>
+         </tr>
+         <tr>
+          <td><label>City:</label></td>
+          <td> <input type = "text" placeholder="Enter your city "><br></td>
+       </tr>
+       <tr>
+        <td><label>State:</label></td>
+        <td> <input type = "text" placeholder="Enter your state "><br></td>
+     </tr>
+     
+         
+          <tr></tr>
+          <tr><td>
+            <label> Select Model:</label>
+          </td></tr>
+          <tr>
+            <td>
+              <select id = "models" name = "cars">
+                <option>TVS Scooty </option>
+                <option>TVS Motorcycle </option>
+                <option>TVS Mopped </option>
+              </select>
+            </td> </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td><button type="button" class="btn btn-success btn-lg"  onclick = "enquiry()">Submit</button>
+              </td>
+            </tr>
+        </table>
+      
+   
+      </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+#d1 {
+    background-color: lightpink;
+    color: grey;
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 500px;
+}
+
+.card {
+    width:500;
+    height: 400;
+    border:10px
+}

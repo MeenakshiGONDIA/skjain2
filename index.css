@@ -1,0 +1,37 @@
+body{
+    background-color: lightgray;
+    color: black;
+    size: 100;
+
+
+}
+
+h1{
+    font-weight: bold;
+}
+ 
+
+    .jumbotron {
+        background-image: url("https://ak.picdn.net/shutterstock/videos/9062753/thumb/1.jpg");
+        background-size: cover;
+    height: 400px;
+     background-color: black;
+     color: white;
+     size: 150px;
+}
+
+#d2 {
+    font-size: 35px;
+    font-style: italic;
+    background-color: darkgray;
+}
+
+li { 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fa {
+    font-size: 50px;
+    margin-left: 50px;
+}
